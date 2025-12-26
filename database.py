@@ -3,7 +3,7 @@ from sqlmodel import SQLModel, create_engine, Session
 from sqlalchemy import event
 from sqlalchemy.engine import Engine
 
-sqlite_file_name = "lexfinance.db"
+sqlite_file_name = r"H:\Meu Drive\LexDados\lexfinance.db"
 sqlite_url = f"sqlite:///{sqlite_file_name}"
 
 connect_args = {"check_same_thread": False}
